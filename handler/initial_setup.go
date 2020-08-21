@@ -9,6 +9,7 @@ import (
 	"io/ioutil"
 )
 
+// sets up the machine and reads order from the order file.
 func InitialSetup(machineConfig, orderFileName string) error {
 	machineFile, err := ioutil.ReadFile(machineConfig)
 	if err != nil {

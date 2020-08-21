@@ -7,5 +7,8 @@ import (
 
 func main() {
 	// pass onemachine config and order as params.
-	fmt.Println(handler.InitialSetup("machine1", "orders1"))
+	err := handler.InitialSetup("machine1", "orders1")
+	if err != nil {
+		fmt.Println(err)
+	}
 }
