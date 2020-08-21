@@ -1,0 +1,39 @@
+{
+    "count_n": 4,
+    "ingredients": {
+      "hot_water": 5000,
+      "hot_milk": 5000,
+      "ginger_syrup": 200,
+      "sugar_syrup": 400,
+      "tea_leaves_syrup": 400,
+      "green_mixture": 200
+    },
+    "beverages": {
+      "hot_tea": {
+        "hot_water": 200,
+        "hot_milk": 100,
+        "ginger_syrup": 10,
+        "sugar_syrup": 10,
+        "tea_leaves_syrup": 30
+      },
+      "hot_coffee": {
+        "hot_water": 100,
+        "ginger_syrup": 30,
+        "hot_milk": 400,
+        "sugar_syrup": 50,
+        "tea_leaves_syrup": 30
+      },
+      "black_tea": {
+        "hot_water": 300,
+        "ginger_syrup": 30,
+        "sugar_syrup": 50,
+        "tea_leaves_syrup": 30
+      },
+      "green_tea": {
+        "hot_water": 100,
+        "ginger_syrup": 30,
+        "sugar_syrup": 50,
+        "green_mixture": 30
+      }
+    }
+}
